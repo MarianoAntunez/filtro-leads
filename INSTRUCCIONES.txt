@@ -1,0 +1,55 @@
+Manual de Usuario
+Instrucciones de Uso de la Aplicación
+Descripción:
+Esta aplicación permite filtrar datos de un archivo CSV basado en diferentes criterios y descargar los resultados filtrados en un nuevo archivo CSV.
+
+Instrucciones para Filtrar y Descargar Datos
+Abrir la Aplicación:
+
+Inicia la aplicación en tu navegador web.
+Seleccionar Tipo de Filtro:
+
+En el menú desplegable “Tipo de Filtro”, selecciona el tipo de filtro que deseas aplicar. Las opciones disponibles son:
+Role
+Industry
+Country
+CNAE
+Seleccionar Valor del Filtro:
+
+Después de seleccionar el tipo de filtro, aparecerá un segundo menú desplegable para que elijas el valor correspondiente. Selecciona el valor deseado o deja 
+la opción “Todos” para no aplicar un filtro específico en esa categoría.
+Aplicar Filtros y Descargar:
+
+Haz clic en el botón “Aplicar Filtros y Descargar” para filtrar los datos según los criterios seleccionados y descargar el archivo CSV resultante.
+Nota Importante
+Si no se encuentran datos que coincidan con los filtros aplicados, se mostrará una alerta y no se generará el archivo de descarga.
+Configuración de Excel para Reconocer la Coma como Delimitador
+Para asegurarte de que Excel reconozca la coma como delimitador en el archivo CSV descargado, sigue estos pasos:
+
+Configuración en Excel
+Abrir Excel:
+
+Inicia Microsoft Excel en tu computadora.
+Abrir el Archivo CSV:
+
+Ve a Archivo > Abrir y selecciona el archivo CSV que descargaste.
+Asistente para Importación de Texto:
+
+Si el archivo se abre en una sola columna, selecciona Datos > Texto en columnas para abrir el asistente de importación de texto.
+Seleccionar el Tipo de Archivo:
+
+En el asistente, elige “Delimitado” y haz clic en “Siguiente”.
+Seleccionar el Delimitador:
+
+Marca la opción “Coma” como delimitador. Asegúrate de desmarcar cualquier otra opción.
+Finalizar la Importación:
+
+Haz clic en “Finalizar” para completar la importación del archivo CSV. Los datos deberían aparecer correctamente en columnas separadas.
+Alternativa: Configuración Regional en Excel
+Acceder a Configuración Regional:
+
+Ve a Archivo > Opciones > Avanzado.
+Cambiar el Delimitador Predeterminado:
+
+Busca la sección “Opciones de edición” y cambia el delimitador predeterminado a la coma si es necesario. Esto puede variar según la configuración regional 
+y el idioma de tu versión de Excel.
